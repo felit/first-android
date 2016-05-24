@@ -25,5 +25,15 @@ public class MainActivity extends AppCompatActivity {
                 self.startActivity(intent);
             }
         });
+        Button webView = (Button) this.findViewById(R.id.webview);
+        webView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(self, WebViewActivity.class);
+                self.startActivity(intent);
+            }
+        });
     }
 }
