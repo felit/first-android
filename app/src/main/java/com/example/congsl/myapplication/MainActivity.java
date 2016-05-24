@@ -8,15 +8,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private static Button searchButton = null;
+    private static Button nextListViewButton = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        searchButton = (Button) this.findViewById(R.id.nextListView);
+        nextListViewButton = (Button) this.findViewById(R.id.nextListView);
         final Context self = this;
-        searchButton.setOnClickListener(new View.OnClickListener() {
+        nextListViewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
