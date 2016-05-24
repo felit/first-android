@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:text="My first android application"
         android:id="@+id/textView" />
+<!--
 
     <EditText
         android:layout_width="wrap_content"
@@ -22,20 +23,14 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:text="test" />
+-->
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
         android:text="nextListView"
-        android:id="@+id/nextListView"
-        android:layout_alignBottom="@+id/editText"
-        android:layout_toEndOf="@+id/editText" />
-
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_below="@+id/nextListView"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/nextListView"/>
 
 </RelativeLayout>
