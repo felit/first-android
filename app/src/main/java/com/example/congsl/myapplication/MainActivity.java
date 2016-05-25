@@ -35,5 +35,23 @@ public class MainActivity extends AppCompatActivity {
                 self.startActivity(intent);
             }
         });
+        ((Button) this.findViewById(R.id.contact_list)).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(self, ContactActivity.class);
+                self.startActivity(intent);
+            }
+        });
+        ((Button) this.findViewById(R.id.elementButton)).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(self, ElementsActivity.class);
+                self.startActivity(intent);
+            }
+        });
     }
 }

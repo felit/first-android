@@ -30,84 +30,17 @@
             android:layout_alignTop="@+id/line1"
             android:layout_alignParentEnd="true" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="linear layout"
-            android:id="@+id/linear_text"/>
-
-        <Switch
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Switch"
-            android:layout_below="@+id/linear_text"
-            android:id="@+id/switch1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
-            android:id="@+id/textView3" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
-            android:id="@+id/textView4" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Small Text"
-            android:id="@+id/textView5" />
+            android:text="UI元素列表"
+            android:id="@+id/elementButton" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button" />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New RadioButton"
-            android:id="@+id/radioButton"
-            android:layout_above="@+id/textView"
-            android:layout_alignEnd="@+id/nextListView"
-            android:layout_marginEnd="40dp" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="date"
-            android:ems="10"
-            android:id="@+id/editText"
-            android:layout_gravity="right" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New CheckBox"
-            android:id="@+id/checkBox" />
-
-        <ToggleButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New ToggleButton"
-            android:id="@+id/toggleButton" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner" />
-
-        <SeekBar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/seekBar" />
+            android:text="读取通讯录"
+            android:id="@+id/contact_list" />
 
     </LinearLayout>
     <TextView

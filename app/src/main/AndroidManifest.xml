@@ -27,7 +27,32 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.congsl.myapplication.MainActivity" />
         </activity>
-        <activity android:name=".WebViewActivity"></activity>
+        <activity android:name=".WebViewActivity" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ContactActivity"
+            android:label="@string/title_activity_contact"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.congsl.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ElementsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_elements"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.congsl.myapplication.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
